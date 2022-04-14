@@ -1,16 +1,20 @@
 html{
-height: 100%;
+
 }
 body{
   background: radial-gradient(goldenrod, firebrick);
   height: 100%;
   text-align: center;
+  width:
+}
+h1{
+  margin-bottom: 0px;
 }
 span{
   display: block;
   text-align: center;
-  padding: 20px;
   font-size: 14px;
+  margin:5px;
 }
 img{
   object-fit: cover;
@@ -20,27 +24,43 @@ img{
   margin: 20px;
   }
 
-  .btn-group2{
+  .btn-group1{
     display: flex;
     justify-content: center;  
+    margin: 10px;
   }
 
-  .btn-group{
+  .btn-group2{
     display: flex;
     flex-direction: column;
-    border: none;
+    margin-top: 10px;
+    
   }
 
   .btn-outline-secondary{
+    border: none;
     margin-left: 10px;
     margin-right: 10px;
-    border: none;
+    background: rgba( 152, 120, 120, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
     
   }
 
   .btn-outline-primary{
-    margin: 10px;
     border: none;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: black;
+    background: rgba( 152, 120, 120, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+
   }
 .btn-outline-primary:hover{
   background:none;
